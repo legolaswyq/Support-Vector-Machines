@@ -1,4 +1,5 @@
 import numpy as np
 
-matrix = np.asarray([[1,2],[3,4]])
-print(matrix.flatten())
+a = [1,4,6,2,3]
+index = [b[0] for b in sorted(enumerate(a),key=lambda i:i[1])]
+print(index)
